@@ -12,3 +12,16 @@ The user speaks a search term.
 The script transcribes the term and opens a Google search in the default browser.
 
 Temporary audio files are cleaned up automatically.
+
+
+Download the Lessac medium model:
+https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx
+Place it in APIs/en_US-lessac-medium.onnx
+
+dependencies: 
+pyaudio
+whisper
+piper-tts
+wave
+winsound
+torch
